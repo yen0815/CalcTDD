@@ -5,7 +5,7 @@ class Calculator:
             raise TypeError("Operands must be numbers")
     def add(self, a, b):
         self._validate(a, b)
-        return a - b #故意錯誤
+        return a - b #恢復成正確
     def subtract(self, a, b):
         self._validate(a, b)
         return a - b

@@ -27,6 +27,6 @@ jobs:
     - name: Run tests
       run: |
         coverage run -m unittest -v CalcTest.py
-        coverage report
+        coverage report -m
 
 
